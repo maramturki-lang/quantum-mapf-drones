@@ -1,0 +1,5 @@
+scenario,planner,total_distance,n_conflicts,success_rate,makespan,sum_of_costs,runtime_ms,nodes_expanded,instances_sans_conflit_%
+Scénario 1 (2 agents),A* espace-temps prioritaire,14.44,0.0,100.0,9.0,14.6,0.27047723999658047,50.6,100.0
+Scénario 1 (2 agents),A* indépendant,14.32,0.1,100.0,9.0,14.32,0.11679182000989385,33.82,92.0
+Scénario 2 (5 agents),A* espace-temps prioritaire,36.02,0.0,100.0,11.12,37.06,0.5409070399991833,124.6,100.0
+Scénario 2 (5 agents),A* indépendant,34.66,1.38,100.0,10.88,34.66,0.2283300000044619,78.42,28.000000000000004
