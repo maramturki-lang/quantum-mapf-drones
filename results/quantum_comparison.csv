@@ -1,0 +1,121 @@
+planner,n_agents,total_distance,n_conflicts,success_rate,makespan,sum_of_costs,runtime_ms,nodes_expanded,seed,scenario,valid
+A* prioritaire (classique),2,17,0,100.0,11,17,0.31419000015375786,36,0,2 agents,True
+QUBO + recuit simulé,2,17,0,100.0,11,17,53.25848000006772,12,0,2 agents,True
+QUBO + exact (référence),2,17,0,100.0,11,17,1.7434789999697387,12,0,2 agents,True
+A* prioritaire (classique),2,21,0,100.0,11,21,0.3208139999060222,62,1,2 agents,True
+QUBO + recuit simulé,2,21,0,100.0,11,21,45.11621599999671,12,1,2 agents,True
+QUBO + exact (référence),2,21,0,100.0,11,21,3.279206000115664,12,1,2 agents,True
+A* prioritaire (classique),2,15,0,100.0,8,15,0.2464599999711936,31,2,2 agents,True
+QUBO + recuit simulé,2,15,0,100.0,8,15,41.23866899999484,12,2,2 agents,True
+QUBO + exact (référence),2,15,0,100.0,8,15,2.9786679999688204,12,2,2 agents,True
+A* prioritaire (classique),2,16,0,100.0,10,16,0.18656699990060588,37,3,2 agents,True
+QUBO + recuit simulé,2,16,0,100.0,11,17,38.77988800013554,12,3,2 agents,True
+QUBO + exact (référence),2,16,0,100.0,10,16,1.5738160000182688,12,3,2 agents,True
+A* prioritaire (classique),2,18,0,100.0,12,18,0.4678230000081385,110,4,2 agents,True
+QUBO + recuit simulé,2,18,0,100.0,12,18,38.480990999914866,12,4,2 agents,True
+QUBO + exact (référence),2,18,0,100.0,12,18,2.3231759998907364,12,4,2 agents,True
+A* prioritaire (classique),2,18,0,100.0,9,18,0.18852000016522652,38,5,2 agents,True
+QUBO + recuit simulé,2,18,0,100.0,9,18,38.05928499991751,12,5,2 agents,True
+QUBO + exact (référence),2,18,0,100.0,9,18,1.9604839999374235,12,5,2 agents,True
+A* prioritaire (classique),2,10,0,100.0,8,10,0.12168200009909924,22,6,2 agents,True
+QUBO + recuit simulé,2,10,0,100.0,9,11,39.76658000010502,12,6,2 agents,True
+QUBO + exact (référence),2,10,0,100.0,8,10,3.57204100009767,12,6,2 agents,True
+A* prioritaire (classique),2,19,0,100.0,14,19,0.27841599990097166,57,7,2 agents,True
+QUBO + recuit simulé,2,19,0,100.0,14,19,39.60317099995336,12,7,2 agents,True
+QUBO + exact (référence),2,19,0,100.0,14,19,4.388842000025761,12,7,2 agents,True
+A* prioritaire (classique),2,14,0,100.0,7,14,0.19618700002865808,37,8,2 agents,True
+QUBO + recuit simulé,2,14,0,100.0,7,14,36.340163999966535,12,8,2 agents,True
+QUBO + exact (référence),2,14,0,100.0,7,14,1.767679000067801,12,8,2 agents,True
+A* prioritaire (classique),2,26,0,100.0,17,32,1.9863039999563625,511,9,2 agents,True
+QUBO + recuit simulé,2,26,0,100.0,19,26,37.45589699997254,12,9,2 agents,True
+QUBO + exact (référence),2,26,0,100.0,19,26,1.89152699999795,12,9,2 agents,True
+A* prioritaire (classique),2,15,0,100.0,11,15,0.22968199982642545,45,10,2 agents,True
+QUBO + recuit simulé,2,15,0,100.0,11,15,36.678592000043864,12,10,2 agents,True
+QUBO + exact (référence),2,15,0,100.0,11,15,1.7345599999316619,12,10,2 agents,True
+A* prioritaire (classique),2,9,0,100.0,6,9,0.09645700015425973,15,11,2 agents,True
+QUBO + recuit simulé,2,9,0,100.0,6,9,38.640094000129466,12,11,2 agents,True
+QUBO + exact (référence),2,9,0,100.0,6,9,3.2779450000361976,12,11,2 agents,True
+A* prioritaire (classique),2,14,0,100.0,7,14,0.16361300004064105,34,12,2 agents,True
+QUBO + recuit simulé,2,12,0,100.0,7,13,39.87746899997546,12,12,2 agents,True
+QUBO + exact (référence),2,12,0,100.0,7,12,4.345116999957099,12,12,2 agents,True
+A* prioritaire (classique),2,11,0,100.0,7,11,0.1310669999838865,24,13,2 agents,True
+QUBO + recuit simulé,2,11,0,100.0,7,11,36.954949000119086,12,13,2 agents,True
+QUBO + exact (référence),2,11,0,100.0,7,11,1.9578569999794126,12,13,2 agents,True
+A* prioritaire (classique),2,19,0,100.0,10,19,0.21032199992987444,41,14,2 agents,True
+QUBO + recuit simulé,2,19,0,100.0,10,20,36.038963999999396,12,14,2 agents,True
+QUBO + exact (référence),2,19,0,100.0,10,19,1.817927000047348,12,14,2 agents,True
+A* prioritaire (classique),2,9,0,100.0,6,9,0.07051800002955133,11,15,2 agents,True
+QUBO + recuit simulé,2,9,0,100.0,6,9,38.6481380000987,12,15,2 agents,True
+QUBO + exact (référence),2,9,0,100.0,6,9,3.4304490000067744,12,15,2 agents,True
+A* prioritaire (classique),2,8,0,100.0,5,8,0.104177999901367,18,16,2 agents,True
+QUBO + recuit simulé,2,8,0,100.0,5,8,36.55930300010368,12,16,2 agents,True
+QUBO + exact (référence),2,8,0,100.0,5,8,1.0637029999998049,12,16,2 agents,True
+A* prioritaire (classique),2,8,0,100.0,7,8,0.06729999995513936,10,17,2 agents,True
+QUBO + recuit simulé,2,10,0,100.0,7,10,40.864483999939694,12,17,2 agents,True
+QUBO + exact (référence),2,8,0,100.0,7,8,4.917208000051687,12,17,2 agents,True
+A* prioritaire (classique),2,19,0,100.0,13,19,0.2555309999934252,54,18,2 agents,True
+QUBO + recuit simulé,2,19,0,100.0,13,19,37.50626900000498,12,18,2 agents,True
+QUBO + exact (référence),2,19,0,100.0,13,19,3.184681999982786,12,18,2 agents,True
+A* prioritaire (classique),2,13,0,100.0,8,13,0.298787000019729,73,19,2 agents,True
+QUBO + recuit simulé,2,13,0,100.0,8,13,40.83197299996755,12,19,2 agents,True
+QUBO + exact (référence),2,13,0,100.0,8,13,6.0791589999098505,12,19,2 agents,True
+A* prioritaire (classique),5,29,0,100.0,9,29,0.3325109998968401,66,0,5 agents,True
+QUBO + recuit simulé,5,31,0,100.0,11,34,87.71461500009536,30,0,5 agents,True
+QUBO + exact (référence),5,29,0,100.0,9,29,34.77991900012967,30,0,5 agents,True
+A* prioritaire (classique),5,38,0,100.0,11,38,0.5234320001363812,117,1,5 agents,True
+QUBO + recuit simulé,5,40,0,100.0,11,41,94.73511400005918,30,1,5 agents,True
+QUBO + exact (référence),5,38,0,100.0,11,38,36.420851000002585,30,1,5 agents,True
+A* prioritaire (classique),5,34,0,100.0,11,34,0.45407099992189615,86,2,5 agents,True
+QUBO + recuit simulé,5,36,0,100.0,11,36,93.4467700001278,30,2,5 agents,True
+QUBO + exact (référence),5,36,0,100.0,11,36,35.380742999905124,30,2,5 agents,True
+A* prioritaire (classique),5,47,0,100.0,12,48,0.65700499999366,153,3,5 agents,True
+QUBO + recuit simulé,5,45,0,100.0,14,46,86.5100099999836,30,3,5 agents,True
+QUBO + exact (référence),5,45,0,100.0,14,46,31.95484299999407,30,3,5 agents,True
+A* prioritaire (classique),5,43,0,100.0,11,46,1.0042809999504243,234,4,5 agents,True
+QUBO + recuit simulé,5,41,0,100.0,13,44,89.9474759999066,30,4,5 agents,True
+QUBO + exact (référence),5,39,0,100.0,11,41,41.01332499999444,30,4,5 agents,True
+A* prioritaire (classique),5,40,0,100.0,15,45,1.5930960000787309,311,5,5 agents,True
+QUBO + recuit simulé,5,36,0,100.0,17,36,100.56744700000309,30,5,5 agents,True
+QUBO + exact (référence),5,34,0,100.0,17,34,40.08001100010006,30,5,5 agents,True
+A* prioritaire (classique),5,44,0,100.0,12,44,0.4641149998860783,95,6,5 agents,True
+QUBO + recuit simulé,5,42,0,100.0,13,43,87.71901800014348,30,6,5 agents,True
+QUBO + exact (référence),5,42,0,100.0,13,43,34.21731399998862,30,6,5 agents,True
+A* prioritaire (classique),5,30,0,100.0,10,30,0.3139450000162469,59,7,5 agents,True
+QUBO + recuit simulé,5,32,0,100.0,10,33,101.83925100000124,30,7,5 agents,True
+QUBO + exact (référence),5,30,0,100.0,10,31,37.89306499993472,30,7,5 agents,True
+A* prioritaire (classique),5,43,0,100.0,11,44,0.9493479999491683,158,8,5 agents,True
+QUBO + recuit simulé,5,45,0,100.0,13,45,90.87896400001227,30,8,5 agents,True
+QUBO + exact (référence),5,41,0,100.0,11,42,31.88268799999605,30,8,5 agents,True
+A* prioritaire (classique),5,43,0,100.0,14,43,0.4487749999952939,99,9,5 agents,True
+QUBO + recuit simulé,5,43,0,100.0,14,45,88.72647899988806,30,9,5 agents,True
+QUBO + exact (référence),5,43,0,100.0,14,43,35.085037000044395,30,9,5 agents,True
+A* prioritaire (classique),5,31,0,100.0,10,31,0.4831270000522636,104,10,5 agents,True
+QUBO + recuit simulé,5,33,0,100.0,11,35,88.63181999981862,30,10,5 agents,True
+QUBO + exact (référence),5,31,0,100.0,10,32,36.063333000129205,30,10,5 agents,True
+A* prioritaire (classique),5,35,0,100.0,12,40,1.0855529999389546,273,11,5 agents,True
+QUBO + recuit simulé,5,37,0,100.0,12,38,89.43950200000472,30,11,5 agents,True
+QUBO + exact (référence),5,37,0,100.0,12,37,35.9280380000655,30,11,5 agents,True
+A* prioritaire (classique),5,30,0,100.0,12,30,0.3698479999911797,69,12,5 agents,True
+QUBO + recuit simulé,5,34,0,100.0,12,34,91.17572300010579,29,12,5 agents,True
+QUBO + exact (référence),5,30,0,100.0,12,30,47.40757099989423,29,12,5 agents,True
+A* prioritaire (classique),5,28,0,100.0,11,28,0.38812200000393204,72,13,5 agents,True
+QUBO + recuit simulé,5,26,0,100.0,11,27,123.51560799993422,29,13,5 agents,True
+QUBO + exact (référence),5,26,0,100.0,11,26,36.4162700000179,29,13,5 agents,True
+A* prioritaire (classique),5,50,0,100.0,12,51,0.9793940000690782,222,14,5 agents,True
+QUBO + recuit simulé,5,48,0,100.0,14,51,88.30415699981131,30,14,5 agents,True
+QUBO + exact (référence),5,48,0,100.0,14,48,33.60040300003675,30,14,5 agents,True
+A* prioritaire (classique),5,28,0,100.0,10,28,0.24674400015101128,45,15,5 agents,True
+QUBO + recuit simulé,5,30,0,100.0,11,34,82.0437810000385,28,15,5 agents,True
+QUBO + exact (référence),5,28,0,100.0,10,29,26.300379000076646,28,15,5 agents,True
+A* prioritaire (classique),5,29,0,100.0,10,29,0.3457289999460045,70,16,5 agents,True
+QUBO + recuit simulé,5,29,0,100.0,10,31,86.65024999982052,29,16,5 agents,True
+QUBO + exact (référence),5,27,0,100.0,10,27,32.7674569998635,29,16,5 agents,True
+A* prioritaire (classique),5,45,0,100.0,13,46,0.7300449999547709,164,17,5 agents,True
+QUBO + recuit simulé,5,43,0,100.0,13,45,85.53334699990955,30,17,5 agents,True
+QUBO + exact (référence),5,43,0,100.0,13,44,33.03114100003768,30,17,5 agents,True
+A* prioritaire (classique),5,42,0,100.0,12,47,1.1447800000041752,281,18,5 agents,True
+QUBO + recuit simulé,5,40,0,100.0,12,41,85.07161000011365,30,18,5 agents,True
+QUBO + exact (référence),5,40,0,100.0,12,40,31.010329999844544,30,18,5 agents,True
+A* prioritaire (classique),5,39,0,100.0,11,40,0.4611170002135623,99,19,5 agents,True
+QUBO + recuit simulé,5,39,0,100.0,13,42,110.46057499993367,30,19,5 agents,True
+QUBO + exact (référence),5,39,0,100.0,13,39,38.522860000057335,30,19,5 agents,True

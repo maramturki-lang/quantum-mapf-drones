@@ -108,3 +108,25 @@ def test_metrics_and_simulation_do_not_modify_input():
     assert m.n_agents == 5 and m.n_conflicts == 0 and m.success_rate == 100.0
     assert m.total_distance >= sum(a.manhattan_distance for a in agents)
     assert m.makespan >= max(a.manhattan_distance for a in agents)
+
+
+# ---------------------------------------------------------- Extension QUBO
+from src.qubo_solver import MAPFQubo, QUBOPlanner  # noqa: E402
+import numpy as np                                  # noqa: E402
+
+
+def test_qubo_energy_equals_cost_for_valid_conflict_free_assignment():
+    cands = {0: [[(0, 0), (0, 1)]], 1: [[(2, 0), (2, 1), (2, 2)]]}   # chemins disjoints
+    model = MAPFQubo(cands)
+    x = np.array([1, 1])
+    assert model.energy(x) == 1 + 2                                  # pénalités nulles
+    assert model.energy(np.array([0, 1])) > model.energy(x)          # agent sans chemin pénalisé
+
+
+def test_qubo_planner_resolves_crossing():
+    grid = Grid(3, 3)
+    agents = [Agent(0, (1, 0), (1, 2)), Agent(1, (0, 1), (2, 1))]
+    planner = QUBOPlanner(grid)
+    planner.solve(agents)
+    assert planner.valid and detect_conflicts(agents) == []
+    assert all(a.reached_goal for a in agents)
